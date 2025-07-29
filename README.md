@@ -13,6 +13,18 @@ I am thrilled to announce the release of my redesigned Frappe Framework applicat
 - **Improved Performance:** Enjoy a faster and more responsive experience while working on your projects.
 - **Customizable Themes:** Tailor the look and feel of your Frappe applications with ease.
 
+- Installation
+To install the custom app, follow the steps below:
+
+Make sure you have Frappe installed and set up in your environment.
+Clone the design_app repository from GitHub into the apps directory of your Frappe instance:
+cd /path/to/frappe-bench
+bench get-app design_app https://github.com/walkinlogic/design_app.git
+Install the app using the Frappe Bench:
+cd /path/to/frappe-bench
+bench --site your-site-name install-app design_app
+After successful installation, restart your Frappe instance to apply the changes.
+
 🌐 **Get Involved!**
 
 I believe in the power of collaboration, and that's why I've made the source code of this redesigned Frappe Framework application available to the public on GitHub. Now, you can explore, download, and integrate the enhancements into your own Frappe applications.
