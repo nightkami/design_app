@@ -16,14 +16,14 @@ I am thrilled to announce the release of my redesigned Frappe Framework applicat
 👉 **Installation**
 - To install the custom app, follow the steps below:
 
-- Make sure you have Frappe installed and set up in your environment.
-- Clone the design_app repository from GitHub into the apps directory of your Frappe instance:
-- cd /path/to/frappe-bench
-- bench get-app design_app https://github.com/walkinlogic/design_app.git
-- Install the app using the Frappe Bench:
-- cd /path/to/frappe-bench
-- bench --site your-site-name install-app design_app
-- After successful installation, restart your Frappe instance to apply the changes.
+1. Make sure you have Frappe installed and set up in your environment.
+2. Clone the design_app repository from GitHub into the apps directory of your Frappe instance:
+- ```cd /path/to/frappe-bench```
+- ```bench get-app design_app https://github.com/walkinlogic/design_app.git```
+3. Install the app using the Frappe Bench:
+- ```cd /path/to/frappe-bench```
+- ```bench --site your-site-name install-app design_app```
+4. After successful installation, restart your Frappe instance to apply the changes.
 
 🌐 **Get Involved!**
 
